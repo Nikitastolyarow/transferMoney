@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class Card {
     private String cardNumber;
-    private String CardValidUntil;
+    private String сardValidUntil;
     private String cardCVV;
     private Integer balance;
 }
