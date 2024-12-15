@@ -1,5 +1,7 @@
 package ru.netology.transferMoney.controller;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -15,7 +17,7 @@ import ru.netology.transferMoney.service.TransferMoneyService;
 
 @RestController
 public class TransferMoneyController {
-
+    private static final Logger log = LoggerFactory.getLogger(TransferMoneyController.class);
     @Autowired
     private final TransferMoneyService transferMoneyService;
 
@@ -27,10 +29,13 @@ public class TransferMoneyController {
     //Обработка запроса на перевод денег
     @PostMapping("/transfer")
     public ResponseEntity<?> transfer(@RequestBody TransferRequest transferRequest) {
+        log.info("Запрос на перевод получен: {}", transferRequest); // Лог запроса
         try {
             String operationId = transferMoneyService.transfer(transferRequest);
+            log.info("Перевод успешно завершён. ID операции: {}", operationId); // Лог успешного ответа
             return ResponseEntity.ok(new TransferResponse(operationId));
         } catch (CardNotFoundException | InvalidAmountException e) {
+            log.warn("Ошибка при выполнении перевода: {}", e.getMessage()); // Лог предупреждения
             return ResponseEntity.badRequest().body(new ErrorResponse(e.getMessage(), 400));
         }
     }
@@ -38,10 +43,13 @@ public class TransferMoneyController {
     // Обработка подтверждения перевода
     @PostMapping("/confirmOperation")
     public ResponseEntity<?> confirmOperation(@RequestBody ConfirmOperationRequest request) {
+        log.info("Запрос на подтверждение операции получен: {}", request); // Лог запроса
         try {
             String operationId = transferMoneyService.confirmOperation(request);
+            log.info("Операция подтверждена. ID операции: {}", operationId); // Лог успешного ответа
             return ResponseEntity.ok(new TransferResponse(operationId));
         } catch (CardNotFoundException | InvalidAmountException e) {
+            log.warn("Ошибка при подтверждении операции: {}", e.getMessage()); // Лог предупреждения
             return ResponseEntity.badRequest().body(new ErrorResponse(e.getMessage(), 400));
         }
     }
