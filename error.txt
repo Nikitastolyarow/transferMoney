@@ -1,0 +1,171 @@
+C:\Users\User>cd C:\Java\card-transfer-master\card-transfer-master
+
+C:\Java\card-transfer-master\card-transfer-master>npm i
+npm warn old lockfile
+npm warn old lockfile The package-lock.json file was created with an old version of npm,
+npm warn old lockfile so supplemental metadata must be fetched from the registry.
+npm warn old lockfile
+npm warn old lockfile This is a one-time fix-up, please be patient...
+npm warn old lockfile
+npm warn deprecated osenv@0.1.5: This package is no longer supported.
+npm warn deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
+npm warn deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
+npm warn deprecated ini@1.3.5: Please update to ini >=1.3.6 to avoid a prototype pollution issue
+npm warn deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm warn deprecated @npmcli/move-file@1.0.1: This functionality has been moved to @npmcli/fs
+npm warn deprecated is-data-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated is-accessor-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated is-accessor-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated is-data-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated is-data-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated is-accessor-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated is-data-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated is-accessor-descriptor@1.0.0: Please upgrade to v1.0.1
+npm warn deprecated @babel/plugin-proposal-optional-catch-binding@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-catch-binding instead.
+npm warn deprecated @babel/plugin-proposal-json-strings@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-json-strings instead.
+npm warn deprecated @babel/plugin-proposal-private-methods@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+npm warn deprecated @babel/plugin-proposal-unicode-property-regex@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+npm warn deprecated @babel/plugin-proposal-dynamic-import@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-dynamic-import instead.
+npm warn deprecated @babel/plugin-proposal-numeric-separator@7.12.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+npm warn deprecated @babel/plugin-proposal-nullish-coalescing-operator@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+npm warn deprecated @babel/plugin-proposal-logical-assignment-operators@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-logical-assignment-operators instead.
+npm warn deprecated @babel/plugin-proposal-export-namespace-from@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-export-namespace-from instead.
+npm warn deprecated @babel/plugin-proposal-class-properties@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+npm warn deprecated @babel/plugin-proposal-numeric-separator@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated @babel/plugin-proposal-object-rest-spread@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+npm warn deprecated move-concurrently@1.0.1: This package is no longer supported.
+npm warn deprecated flatten@1.0.3: flatten is deprecated in favor of utility frameworks such as lodash.
+npm warn deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+npm warn deprecated npmlog@4.1.2: This package is no longer supported.
+npm warn deprecated figgy-pudding@3.5.2: This module is no longer supported.
+npm warn deprecated @hapi/bourne@1.3.2: This version has been deprecated and is no longer supported or maintained
+npm warn deprecated @hapi/topo@3.1.6: This version has been deprecated and is no longer supported or maintained
+npm warn deprecated @babel/plugin-proposal-async-generator-functions@7.12.1: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+npm warn deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+npm warn deprecated @babel/plugin-proposal-optional-chaining@7.12.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+npm warn deprecated rollup-plugin-terser@5.3.1: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+npm warn deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm warn deprecated har-validator@5.1.5: this library is no longer supported
+npm warn deprecated copy-concurrently@1.0.5: This package is no longer supported.
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm warn deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
+npm warn deprecated
+npm warn deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+npm warn deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm warn deprecated abab@2.0.5: Use your platform's native atob() and btoa() methods instead
+npm warn deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+npm warn deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm warn deprecated are-we-there-yet@1.1.5: This package is no longer supported.
+npm warn deprecated domexception@2.0.1: Use your platform's native DOMException instead
+npm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+npm warn deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm warn deprecated fs-write-stream-atomic@1.0.10: This package is no longer supported.
+npm warn deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+npm warn deprecated @hapi/address@2.1.4: Moved to 'npm install @sideway/address'
+npm warn deprecated rollup-plugin-babel@4.4.0: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-babel.
+npm warn deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+npm warn deprecated babel-eslint@10.1.0: babel-eslint is now @babel/eslint-parser. This package will no longer receive updates.
+npm warn deprecated gauge@2.7.4: This package is no longer supported.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm warn deprecated fstream@1.0.12: This package is no longer supported.
+npm warn deprecated workbox-google-analytics@5.1.4: It is not compatible with newer versions of GA starting with v4, as long as you are using GAv3 it should be ok, but the package is not longer being maintained
+npm warn deprecated @hapi/hoek@8.5.1: This version has been deprecated and is no longer supported or maintained
+npm warn deprecated @hapi/joi@15.1.1: Switch to 'npm install joi'
+npm warn deprecated axios@0.21.0: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+npm warn deprecated @material-ui/system@4.9.14: You can now upgrade to @mui/system. See the guide: https://mui.com/guides/migration-v4/
+npm warn deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+npm warn deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+npm warn deprecated @material-ui/styles@4.10.0: Material UI v4 doesn't receive active development since September 2021. See the guide https://mui.com/material-ui/migration/migration-v4/ to upgrade to v5.
+npm warn deprecated node-sass@4.14.1: Node Sass is no longer supported. Please use `sass` or `sass-embedded` instead.
+npm warn deprecated eslint@7.14.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+npm warn deprecated core-js@2.6.11: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm warn deprecated core-js-pure@3.7.0: core-js-pure@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js-pure.
+npm warn deprecated core-js@3.7.0: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+npm warn deprecated @material-ui/core@4.11.0: Material UI v4 doesn't receive active development since September 2021. See the guide https://mui.com/material-ui/migration/migration-v4/ to upgrade to v5.
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\C:\\Java\\card-transfer-master\\card-transfer-master\\node_modules\\node-notifier',
+npm warn cleanup     [Error: EPERM: operation not permitted, rmdir 'C:\Java\card-transfer-master\card-transfer-master\node_modules\node-notifier\vendor\mac.noindex\terminal-notifier.app'] {
+npm warn cleanup       errno: -4048,
+npm warn cleanup       code: 'EPERM',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'C:\\Java\\card-transfer-master\\card-transfer-master\\node_modules\\node-notifier\\vendor\\mac.noindex\\terminal-notifier.app'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code 1
+npm error path C:\Java\card-transfer-master\card-transfer-master\node_modules\node-sass
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c node scripts/build.js
+npm error Building: C:\Program Files\nodejs\node.exe C:\Java\card-transfer-master\card-transfer-master\node_modules\node-gyp\bin\node-gyp.js rebuild --verbose --libsass_ext= --libsass_cflags= --libsass_ldflags= --libsass_library=
+npm error gyp info it worked if it ends with ok
+npm error gyp verb cli [
+npm error gyp verb cli   'C:\\Program Files\\nodejs\\node.exe',
+npm error gyp verb cli   'C:\\Java\\card-transfer-master\\card-transfer-master\\node_modules\\node-gyp\\bin\\node-gyp.js',
+npm error gyp verb cli   'rebuild',
+npm error gyp verb cli   '--verbose',
+npm error gyp verb cli   '--libsass_ext=',
+npm error gyp verb cli   '--libsass_cflags=',
+npm error gyp verb cli   '--libsass_ldflags=',
+npm error gyp verb cli   '--libsass_library='
+npm error gyp verb cli ]
+npm error gyp info using node-gyp@3.8.0
+npm error gyp info using node@22.11.0 | win32 | x64
+npm error gyp verb command rebuild []
+npm error gyp verb command clean []
+npm error gyp verb clean removing "build" directory
+npm error gyp verb command configure []
+npm error gyp verb check python checking for Python executable "python2" in the PATH
+npm error gyp verb `which` failed Error: not found: python2
+npm error gyp verb `which` failed     at getNotFoundError (C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:13:12)
+npm error gyp verb `which` failed     at F (C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:68:19)
+npm error gyp verb `which` failed     at E (C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:80:29)
+npm error gyp verb `which` failed     at C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:89:16
+npm error gyp verb `which` failed     at C:\Java\card-transfer-master\card-transfer-master\node_modules\isexe\index.js:42:5
+npm error gyp verb `which` failed     at C:\Java\card-transfer-master\card-transfer-master\node_modules\isexe\windows.js:36:5
+npm error gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:197:21)
+npm error gyp verb `which` failed  python2 Error: not found: python2
+npm error gyp verb `which` failed     at getNotFoundError (C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:13:12)
+npm error gyp verb `which` failed     at F (C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:68:19)
+npm error gyp verb `which` failed     at E (C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:80:29)
+npm error gyp verb `which` failed     at C:\Java\card-transfer-master\card-transfer-master\node_modules\which\which.js:89:16
+npm error gyp verb `which` failed     at C:\Java\card-transfer-master\card-transfer-master\node_modules\isexe\index.js:42:5
+npm error gyp verb `which` failed     at C:\Java\card-transfer-master\card-transfer-master\node_modules\isexe\windows.js:36:5
+npm error gyp verb `which` failed     at FSReqCallback.oncomplete (node:fs:197:21) {
+npm error gyp verb `which` failed   code: 'ENOENT'
+npm error gyp verb `which` failed }
+npm error gyp verb check python checking for Python executable "python" in the PATH
+npm error gyp verb `which` succeeded python C:\Users\User\AppData\Local\Programs\Python\Python312\python.EXE
+npm error (node:13576) [DEP0060] DeprecationWarning: The `util._extend` API is deprecated. Please use Object.assign() instead.
+npm error (Use `node --trace-deprecation ...` to show where the warning was created)
+npm error gyp ERR! configure error
+npm error gyp ERR! stack Error: Command failed: C:\Users\User\AppData\Local\Programs\Python\Python312\python.EXE -c import sys; print "%s.%s.%s" % sys.version_info[:3];
+npm error gyp ERR! stack   File "<string>", line 1
+npm error gyp ERR! stack     import sys; print "%s.%s.%s" % sys.version_info[:3];
+npm error gyp ERR! stack                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+npm error gyp ERR! stack SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+npm error gyp ERR! stack
+npm error gyp ERR! stack     at genericNodeError (node:internal/errors:983:15)
+npm error gyp ERR! stack     at wrappedFn (node:internal/errors:537:14)
+npm error gyp ERR! stack     at ChildProcess.exithandler (node:child_process:419:12)
+npm error gyp ERR! stack     at ChildProcess.emit (node:events:518:28)
+npm error gyp ERR! stack     at maybeClose (node:internal/child_process:1104:16)
+npm error gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:304:5)
+npm error gyp ERR! System Windows_NT 10.0.19045
+npm error gyp ERR! command "C:\\Program Files\\nodejs\\node.exe" "C:\\Java\\card-transfer-master\\card-transfer-master\\node_modules\\node-gyp\\bin\\node-gyp.js" "rebuild" "--verbose" "--libsass_ext=" "--libsass_cflags=" "--libsass_ldflags=" "--libsass_library="
+npm error gyp ERR! cwd C:\Java\card-transfer-master\card-transfer-master\node_modules\node-sass
+npm error gyp ERR! node -v v22.11.0
+npm error gyp ERR! node-gyp -v v3.8.0
+npm error gyp ERR! not ok
+npm error Build failed with error code: 1
+npm error A complete log of this run can be found in: C:\Users\User\AppData\Local\npm-cache\_logs\2024-12-26T16_20_40_209Z-debug-0.log
+
+C:\Java\card-transfer-master\card-transfer-master>
