@@ -76,10 +76,10 @@ public class TransferMoneyService {
                 LocalDateTime.now(), cardFrom, cardTo, amount, commission, status, operationId
         );
 
-        try (FileWriter writer = new FileWriter("transactions.log", true)) { // Дозапись в файл
+        try (FileWriter writer = new FileWriter("transactions.txt", true)) { // Дозапись в файл
             writer.write(logEntry);
             writer.flush();
-            log.info("Запись успешно добавлена в transactions.log");
+            log.info("Запись успешно добавлена в transactions.txt");
         } catch (IOException e) {
             log.error("Ошибка записи в лог файл: {}", e.getMessage());
         }

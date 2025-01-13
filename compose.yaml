@@ -3,4 +3,4 @@ services:
   app_server:
     build: ./
     ports:
-      - '8080:8080'
+      - '5500:5500'
