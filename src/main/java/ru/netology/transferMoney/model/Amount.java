@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Amount {
-    private String value;   //сумма
+    private int value;   //сумма
     private String currency;  //валюта
 }

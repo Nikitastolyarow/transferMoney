@@ -74,12 +74,12 @@ mvn clean package
 ```  
 ### 2. Сборка Docker-образа
 ```
-docker build -t transfer-money-app .
+docker build -t money-transfer-app .
 ```
 
 ### 3. Запуск контейнера
 ```
-docker run -p 8080:8080 transfer-money-app
+docker run -d -p 5500:5500 money-transfer-app:latest
 ```
 ### 4. Запуск с Docker Compose
 Либо же можно использовать Docker Compose
@@ -101,3 +101,15 @@ docker-compose up
 ### Результат в Idea:
 ![](src/main/resources/idea.jpg)
 
+
+## **Для работы FRONT нужно :**
+### 1. Запуск контейнера
+![](src/main/resources/запуск докер.jpg)
+### 2. Использовать уже развёрнутое демо-приложение по адресу:
+https://serp-ya.github.io/card-transfer/
+### 3. При успешном запуске откроется окно 
+![](src/main/resources/открыть.jpg)
+### 4. Вводим необходимые данные 
+![](src/main/resources/перевод 1000.jpg)
+### 5. Получаем ответ
+![](src/main/resources/успешный перевод.jpg)

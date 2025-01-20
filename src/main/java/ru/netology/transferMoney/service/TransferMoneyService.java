@@ -25,7 +25,7 @@ public class TransferMoneyService {
 
     public String transfer(TransferRequest transferRequest) {
         // Извлекаем данные перевода
-        int transferAmount = Integer.parseInt(transferRequest.getAmount().getValue());
+        int transferAmount = transferRequest.getAmount().getValue()/100;
         int commission = calculateCommission(transferAmount); // Расчёт комиссии
 
         // Проверка отправителя

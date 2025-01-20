@@ -12,8 +12,8 @@ public class CardRepositoryStubImpl implements CardRepository {
 
     public CardRepositoryStubImpl() {
 
-        cards.put("1111222233334444", new Card("1111222233334444", "12/24", "123", 10000));
-        cards.put("5555666677778888", new Card("5555666677778888", "11/25", "456", 20000));
+        cards.put("1111222233334444", new Card("1111222233334444", "06/25", "123", 100000));
+        cards.put("5555666677778888", new Card("5555666677778888", "11/25", "456", 100));
     }
 
     @Override
