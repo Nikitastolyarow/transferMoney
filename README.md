@@ -104,12 +104,16 @@ docker-compose up
 
 ## **Для работы FRONT нужно :**
 ### 1. Запуск контейнера
-![](src/main/resources/запуск докер.jpg)
+![](src/main/resources/запуск%20докер.jpg)
+
 ### 2. Использовать уже развёрнутое демо-приложение по адресу:
 https://serp-ya.github.io/card-transfer/
+
 ### 3. При успешном запуске откроется окно 
 ![](src/main/resources/открыть.jpg)
-### 4. Вводим необходимые данные 
-![](src/main/resources/перевод 1000.jpg)
+
+### 4. Вводим необходимые данные
+![](src/main/resources/перевод%201000.jpg)
+
 ### 5. Получаем ответ
-![](src/main/resources/успешный перевод.jpg)
+![](src/main/resources/успешный%20перевод.jpg)
