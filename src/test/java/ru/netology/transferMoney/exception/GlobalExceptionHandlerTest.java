@@ -1,4 +1,4 @@
-/*
+
 package ru.netology.transferMoney.exception;
 
 import org.junit.jupiter.api.Test;
@@ -28,4 +28,3 @@ public class GlobalExceptionHandlerTest {
 
     }
 }
-*/

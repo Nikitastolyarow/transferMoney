@@ -1,5 +1,4 @@
 
-/*
 package ru.netology.transferMoney.service;
 
 import org.junit.jupiter.api.Test;
@@ -44,7 +43,7 @@ public class TransferMoneyServiceTest {
         when(cardRepository.findCardByNumber(cardToNumber)).thenReturn(cardTo);
 
         TransferRequest transferRequest = new TransferRequest(
-                cardFromNumber, "12/24", "123", cardToNumber, new Amount(String.valueOf(transferAmount), "RUB")
+                cardFromNumber, "12/24", "123", cardToNumber, new Amount(transferAmount, "RUB")
         );
 
         // Act
@@ -67,7 +66,7 @@ public class TransferMoneyServiceTest {
         when(cardRepository.findCardByNumber(cardFromNumber)).thenReturn(null);
 
         TransferRequest transferRequest = new TransferRequest(
-                cardFromNumber, "12/24", "123", cardToNumber,new Amount("2000", "RUB")
+                cardFromNumber, "12/24", "123", cardToNumber,new Amount(2000, "RUB")
         );
 
         assertThrows(CardNotFoundException.class, () -> transferMoneyService.transfer(transferRequest));
@@ -88,7 +87,7 @@ public class TransferMoneyServiceTest {
         when(cardRepository.findCardByNumber(cardToNumber)).thenReturn(cardTo);
 
         TransferRequest transferRequest = new TransferRequest(
-                cardFromNumber, "12/24", "123", cardToNumber,new Amount("2000", "RUB")
+                cardFromNumber, "12/24", "123", cardToNumber,new Amount(2000, "RUB")
         );
 
         assertThrows(IllegalArgumentException.class, () -> transferMoneyService.transfer(transferRequest));
@@ -96,4 +95,3 @@ public class TransferMoneyServiceTest {
         verify(cardRepository, times(1)).findCardByNumber(cardToNumber);
     }
 }
-*/
